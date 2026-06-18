@@ -5,7 +5,7 @@ icon: Cloud
 color: emerald
 tier: free
 lessons:
-  - { order: 1, dir: lesson-01-aws-well-architected-framework-whitepaper, tier: free }
-  - { order: 2, dir: lesson-02-aws-solutions-library, tier: free }
+  - { order: 1, dir: lesson-01-aws-solutions-library, tier: free }
+  - { order: 2, dir: lesson-02-aws-well-architected-framework-whitepaper, tier: free }
   - { order: 3, dir: lesson-03-gcp-cloud-architecture-framework, tier: free }
   - { order: 4, dir: lesson-04-the-frugal-architect-werner-vogels, tier: free }
