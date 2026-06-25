@@ -1,0 +1,39 @@
+Service,UsageType,Description,Cost,Usage Amount,Unit
+Amazon EC2,BoxUsage:r5.2xlarge,On-Demand r5.2xlarge - US East (order-api service),487.20,720,Hours
+Amazon EC2,BoxUsage:m5.xlarge,On-Demand m5.xlarge - US East (web-frontend),140.16,720,Hours
+Amazon EC2,BoxUsage:m5.xlarge,On-Demand m5.xlarge - US East (auth-service),140.16,720,Hours
+Amazon EC2,BoxUsage:t3.medium,On-Demand t3.medium - US East (monitoring),30.37,720,Hours
+Amazon EC2,BoxUsage:c5.large,On-Demand c5.large - US East (batch-processor),62.05,720,Hours
+Amazon EC2,BoxUsage:t3.small,On-Demand t3.small - US East (bastion-host),15.18,720,Hours
+Amazon RDS,InstanceUsage:db.r5.large,Multi-AZ db.r5.large PostgreSQL (dev-database),380.16,720,Hours
+Amazon RDS,InstanceUsage:db.t3.medium,Single-AZ db.t3.medium PostgreSQL (prod-database),49.06,720,Hours
+Amazon RDS,StorageUsage,RDS GP3 Storage (dev-database),23.00,200,GB-Mo
+Amazon RDS,StorageUsage,RDS GP3 Storage (prod-database),11.50,100,GB-Mo
+Amazon S3,TimedStorage-ByteHrs,S3 Standard Storage (app-logs-archive bucket),184.00,8000,GB-Mo
+Amazon S3,TimedStorage-ByteHrs,S3 Standard Storage (user-uploads bucket),23.00,1000,GB-Mo
+Amazon S3,TimedStorage-ByteHrs,S3 Standard Storage (deployment-artifacts bucket),46.00,2000,GB-Mo
+Amazon S3,Requests-Tier1,S3 PUT/COPY/POST Requests,4.50,900000,Requests
+Amazon S3,Requests-Tier2,S3 GET/SELECT Requests,1.20,3000000,Requests
+Amazon S3,DataTransfer-Out-Bytes,S3 Data Transfer Out to Internet,9.80,108,GB
+NAT Gateway,NatGateway-Hours,NAT Gateway hourly charge - US East,32.40,720,Hours
+NAT Gateway,NatGateway-Bytes,NAT Gateway data processing,341.82,7596,GB
+Amazon EBS,VolumeUsage.gp3,500GB gp3 volume (unattached - former staging server),40.00,500,GB-Mo
+Amazon EBS,VolumeUsage.gp3,200GB gp3 volume (unattached - old data migration),16.00,200,GB-Mo
+Amazon EBS,VolumeUsage.gp3,100GB gp3 volume (web-frontend),8.00,100,GB-Mo
+Amazon EBS,VolumeUsage.gp3,100GB gp3 volume (order-api),8.00,100,GB-Mo
+Amazon EBS,Snapshot,EBS Snapshots (daily retention - 90 days),75.00,1500,GB-Mo
+Amazon CloudWatch,MetricMonitorUsage,Custom Metrics,30.00,100,Metrics
+Amazon CloudWatch,TimedStorage-ByteHrs,Log Storage - 12 month retention all log groups,128.40,1200,GB-Mo
+Amazon CloudWatch,HourlyDataScanned,CloudWatch Logs Insights queries,14.70,294,GB
+Amazon ElastiCache,NodeUsage:cache.r6g.xlarge,ElastiCache Redis r6g.xlarge (session-cache),259.20,720,Hours
+Amazon ElastiCache,BackupUsage,ElastiCache backup storage,4.20,42,GB-Mo
+AWS Lambda,Request,Lambda invocations (event-processor),0.60,3000000,Requests
+AWS Lambda,Duration,Lambda compute (event-processor),8.40,504000,GB-Seconds
+AWS Lambda,Request,Lambda invocations (image-resizer),0.04,200000,Requests
+AWS Lambda,Duration,Lambda compute (image-resizer),2.10,126000,GB-Seconds
+Amazon CloudFront,DataTransfer-Out-Bytes,CloudFront data transfer,18.50,217,GB
+Amazon CloudFront,Requests-Tier1-HTTPS,CloudFront HTTPS requests,3.60,3600000,Requests
+AWS Key Management Service,KMS-Keys,Customer managed KMS keys,5.00,5,Keys
+Amazon Route 53,HostedZone,Hosted zones,1.50,3,Zones
+Amazon Route 53,DNS-Queries,Standard DNS queries,1.20,3000000,Queries
+Amazon ECR,TimedStorage-ByteHrs,ECR image storage,2.80,28,GB-Mo

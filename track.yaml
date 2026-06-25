@@ -9,3 +9,9 @@ lessons:
   - { order: 2, dir: lesson-02-aws-well-architected-framework-whitepaper, tier: free }
   - { order: 3, dir: lesson-03-gcp-cloud-architecture-framework, tier: free }
   - { order: 4, dir: lesson-04-the-frugal-architect-werner-vogels, tier: free }
+  - { order: 5, dir: lesson-05-multi-account-landing-zones, tier: premium }
+  - { order: 6, dir: lesson-06-resilient-cell-based-architecture, tier: premium }
+  - { order: 7, dir: lesson-07-well-architected-labs, tier: premium }
+  - { order: 8, dir: lesson-08-event-driven-serverless-patterns, tier: premium }
+  - { order: 9, dir: lesson-09-finops-cloud-financial-architecture, tier: premium }
+  - { order: 10, dir: lesson-10-multi-cloud-hybrid-strategies, tier: premium }
