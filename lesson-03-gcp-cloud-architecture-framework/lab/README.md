@@ -17,6 +17,7 @@ Work through the exercises in this order:
 ### Step 1: Study the Comparison Matrix (20 min)
 
 Read `aws-vs-gcp-comparison-matrix.md` thoroughly. Pay attention to:
+
 - Where pillars align and where they diverge
 - The translation guide section mapping AWS services to GCP equivalents
 - Behavioral differences (not just name differences) between equivalent services
@@ -24,6 +25,7 @@ Read `aws-vs-gcp-comparison-matrix.md` thoroughly. Pay attention to:
 ### Step 2: Complete the Translation Exercise (40 min)
 
 Open `cross-cloud-translation-exercise.md` and:
+
 1. Review the AWS architecture diagram and service table
 2. Fill in the blank translation template without looking at hints
 3. Use the hints table only if stuck on a specific mapping
@@ -31,8 +33,13 @@ Open `cross-cloud-translation-exercise.md` and:
 5. Study the GCP architecture diagram and note structural differences
 6. Answer the three discussion questions (write 2-3 sentences each)
 
+### Step 3: Complete the Architecture Review Worksheet (30 min)
+
+Open `architecture-review-worksheet.md` and add one finding for each Google Cloud Architecture Framework pillar. Then map one AWS pattern to its closest GCP equivalent and name one platform-specific assumption that does not translate cleanly.
+
 ## Success Criteria
 
 - All 11 rows in the translation template filled with correct GCP equivalents
 - At least 2 notable behavioral differences identified per service pair
 - Discussion questions answered with specific technical reasoning (not generic statements)
+- The worksheet includes a decision or gap for system design, operations, security, reliability, and cost

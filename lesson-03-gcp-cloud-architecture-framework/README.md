@@ -101,6 +101,17 @@ Use the framework at multiple stages:
 
 Architectural maturity is iterative. The same framework becomes more useful as your systems become more complex.
 
+## Deliverable
+
+Create a **GCP architecture review worksheet** for an existing or hypothetical workload. Include:
+
+- A short workload description and the Google Cloud services you would use
+- One review note for each pillar: system design, operational excellence, security and compliance, reliability, and cost optimization
+- A cross-cloud translation note that maps one AWS pattern to the closest GCP pattern and names one non-equivalent assumption
+- Three improvement backlog items with priority, evidence, and completion signal
+
+Review criteria: the worksheet is complete when each pillar has a decision or gap, the AWS-to-GCP mapping calls out at least one platform-specific difference, and every backlog item is testable or reviewable.
+
 ## Practice Notes
 
 - Convert reading into decisions. Pull out three recommendations, rate whether your current or sample workload follows them, and write the gap as an actionable backlog item.
