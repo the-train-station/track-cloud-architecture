@@ -24,10 +24,14 @@ Work through `bill-analysis-questions.md`. These questions build progressively f
 
 Open `cost-improvement-challenge.md` and identify your top 3 improvements. Use the template provided — specificity matters. Calculate real savings, acknowledge real risks.
 
-### Step 4: Compare with Solution (10 min)
+### Step 4: Complete the Tradeoff Table (20 min)
+
+Open `cost-performance-tradeoff-table.md` and connect each cost recommendation to business value, reliability or operations risk, and a validation signal.
+
+### Step 5: Compare with Solution (10 min)
 
 After completing your analysis, review `solution.md` to compare your findings. There is no single correct answer, but the solution covers the highest-impact opportunities and maps each to a Frugal Architect principle.
 
 ## What Success Looks Like
 
-You can read an AWS bill critically, distinguish necessary spend from waste, quantify improvement opportunities, and connect cost decisions back to architectural principles.
+You can read an AWS bill critically, distinguish necessary spend from waste, quantify improvement opportunities, connect cost decisions back to architectural principles, and name a metric, bill line item, or operational signal that proves each recommendation worked.

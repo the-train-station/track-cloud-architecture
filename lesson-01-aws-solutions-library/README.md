@@ -74,6 +74,17 @@ After deployment, use the solution as a foundation:
 - Review AWS release notes for changes to underlying services
 - Re-deploy updated versions using CloudFormation stack updates
 
+## Deliverable
+
+Create a one-page **solution fit review** for a workload you understand. Include:
+
+- The AWS Solution you selected, the workload scenario, and the business outcome it supports
+- A simple architecture sketch or component list showing data flow, trust boundaries, and managed services
+- A cost/performance tradeoff table with at least three choices you would keep, change, or reject
+- Two implementation risks and one follow-up improvement backlog item
+
+Review criteria: the artifact is complete when another learner can explain why this solution fits the scenario, what it costs operationally, what risk remains, and what the next engineering action should be.
+
 ## Practice Notes
 
 - Redraw the reference architecture from memory, label trust boundaries and data flows, then change one requirement and explain which components or assumptions would need to move.

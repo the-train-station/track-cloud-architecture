@@ -88,6 +88,17 @@ This turns frugality into an engineering habit rather than a reactive cleanup ef
 
 Many systems are overbuilt before teams have real usage data. Revisit the architecture after 30-60 days of production traffic and compare actual load, latency, error budgets, and spend with your original assumptions. Frugal architecture depends on closing that loop. Usage data should justify keeping complexity, not nostalgia for the original design.
 
+## Deliverable
+
+Prepare a **frugal architecture improvement backlog** for one workload. Include:
+
+- A workload criticality statement with latency, availability, and data-loss expectations
+- A cost/performance tradeoff table for at least four expensive assumptions
+- Two improvement candidates that reduce waste without weakening the business outcome
+- A validation plan showing which metric, bill line item, or operational signal proves the improvement worked
+
+Review criteria: the backlog is complete when savings are tied to architecture decisions, each recommendation names the reliability or operations risk it creates, and the validation plan can be checked after implementation.
+
 ## Practice Notes
 
 - Convert reading into decisions. Pull out three recommendations, rate whether your current or sample workload follows them, and write the gap as an actionable backlog item.

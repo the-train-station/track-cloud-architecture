@@ -76,6 +76,17 @@ After completing a review, the tool generates a list of identified risks ranked 
 
 AWS updates the framework as new services and patterns emerge. Make a habit of re-reading updated sections every six to twelve months, especially after major AWS announcements at re:Invent. The Well-Architected Tool also lets you save review milestones so you can track how your architecture improves over time.
 
+## Deliverable
+
+Complete a lightweight **Well-Architected review packet** for one sample workload. Include:
+
+- A workload summary with users, data sensitivity, availability target, and current deployment model
+- One answered review question for each pillar, with evidence or an explicit assumption
+- A ranked improvement backlog with owner, risk level, estimated effort, and expected benefit
+- One ADR that records a tradeoff between reliability, security, performance, cost, or sustainability
+
+Review criteria: the packet is complete when every pillar has at least one concrete finding, high-risk items are separated from nice-to-have work, and the ADR explains why the chosen tradeoff is acceptable for the workload.
+
 ## Practice Notes
 
 - Convert reading into decisions. Pull out three recommendations, rate whether your current or sample workload follows them, and write the gap as an actionable backlog item.
